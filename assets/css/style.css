@@ -1,0 +1,317 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #6d6d6d;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid white;  /* creates padding around scroll thumb */
+
+  }
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    max-width: 100%;
+    padding: 16px 24px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+header div#left {
+    display: flex;
+    width: 146px;
+    justify-content: space-between;
+}
+
+header img#logo-youtube {
+    max-width: 90px;
+    max-height: 20px;
+    align-self: center;
+}
+
+header div#center {
+    display: flex;
+    width: 720px;
+    height: 40px;
+}
+
+header div#center #caixa-pesquisa {
+    display: flex;
+    width: 640px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-radius: 25px 0px 0px 25px;
+    justify-content: space-between;
+    margin-left: 60px;
+    box-shadow: inset 0 5px 5px -5px rgba(51, 51, 51, 0.108);
+}
+
+div#center p {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px;
+    color: #888A8C;
+}
+
+div#center button#botao-teclado {
+    border: none;
+    background-color: transparent;
+    justify-content: right;
+    padding: 0px 8px;
+}
+
+div#center button#botao-microfone {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+header div#center #icone-pesquisa{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 40px;
+    background-color: #f8f8f8;
+    border: 1px;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    border-radius: 0px 25px 25px 0px;
+} 
+
+header div#center #icone-pesquisa img {
+    width: 26px;
+}
+
+header nav {
+    display: flex;
+    width: 259px;
+    justify-content: flex-end;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 24px;
+}
+
+header nav img.icons-right {
+    max-height: 24px;
+}
+
+header nav .icon-dio {
+    max-height: 34px;
+}
+
+div#div-main {
+    display: flex;
+    width: 100%;
+    height: 3000px;
+    margin-top: 25px;
+    justify-content: center;
+    gap: 25px;
+}
+
+section#watching-video {
+    width: 1280px;
+    height: 1000px;
+}
+
+
+div iframe {
+    width: 100%;
+    height: 640px;
+}
+
+div#video-name h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: left;
+    margin: 5px auto 15px;
+    
+}
+
+div#video-actions {
+    display: flex;
+    max-width: 100%;
+    gap: 5px;
+    align-items: center;
+    flex-grow: 3;
+    justify-content: space-between;
+}
+
+div#channel-infos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+div#channel-infos .canal {
+
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    line-height: 1.2rem;
+    color: #515151;
+}
+
+.canal h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+div#channel-infos button {
+    background-color: #000000;
+    width: 110px;
+    height: 100%;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    
+}
+
+div#botoes-interacao {
+    display: flex; 
+    align-content: flex-end;
+    gap: 10px;
+}
+
+div#botoes-interacao img {
+    height: 100%;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+div#botoes-interacao p {
+    font-weight: 800;
+    background-color: #f2f2f2;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+div#infos-descricao {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+div#infos-descricao h3 {
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+
+div#infos-descricao p {
+    width: 50%;
+    font-size: .85rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+}
+
+section#sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 402px;
+    height: 3000px;
+    gap: 10px;
+}
+
+#sidebar .video-item.thumbs {
+    display: flex;
+    flex-direction: row;
+}
+
+section#sidebar .video-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#sidebar #topo-sidebar {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0px;
+}
+
+#sidebar #topo-sidebar button {
+    background-color: #f2f2f2;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: .9rem;
+}
+
+#sidebar #topo-sidebar #button1 {
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+
+section#sidebar .video-item img {
+    width: 165px;
+    height: 95px;
+    border-radius: 10px;
+}
+
+section#sidebar .video-item .texto-thumb{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.video-item .texto-thumb h2 {
+    font-size: .9rem;
+}
+
+.video-item .texto-thumb p {
+    font-size: 0.8rem;
+    color: #828282;
+}
+span {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+

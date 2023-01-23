@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+    body {
+        max-width: 768px;
+    }
+
+    header {
+        display: none;
+    }
+
+
+
+    div#div-main {
+        flex-direction: column;
+        margin-top: 0;
+        width: 100%;
+    
+    }
+
+    section#watching-video {
+        width: 100%;
+        height: 100%;
+    }
+
+    section#watching-video iframe{
+        max-width: max-content;
+        height: max-content;
+        
+    }
+
+    div#video-name h1 {
+        width: 60%;
+        line-height: 1.2em;
+        text-align: justify;
+        padding: 0px 10px;
+        margin: 0;
+    }
+
+    section#watching-video #video-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    #video-actions #channel-infos {
+        margin-left: 8px;
+        max-width: 100%;
+    
+    }
+
+    #video-actions #channel-infos div {
+        width: 100%;
+        
+    }
+
+    #logo-inscritos {
+        display: flex;
+    }
+
+    #channel-infos #logo-inscritos .canal {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        gap: 8px;
+       
+    }
+
+    #channel-infos #btn-inscricao {
+
+        display:flex;
+        justify-content: right;
+        padding-right: 10px;
+        
+    }
+
+    #channel-infos #btn-inscricao button {
+        padding: 5px 8px;
+        font-weight: 500;
+    }
+
+    #video-actions #botoes-interacao {
+        width: 100%;
+
+    }
+
+    #video-actions #botoes-interacao img {
+        display: flex;
+        max-width: 100%;
+     
+    }
+
+    #video-actions #botoes-interacao #compartilhar {
+        display: none;
+    }
+
+    #video-actions #botoes-interacao p {
+        display: none;
+    }
+
+    #video-actions #botoes-interacao #btn-download {
+        display: none;
+    }
+
+    div#infos-descricao {
+        display: none;
+    }
+
+    section#sidebar {
+        max-width: 100%;
+        height: 100%;
+        padding: 10px;
+
+    }
+
+ }
