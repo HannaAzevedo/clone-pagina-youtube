@@ -175,7 +175,11 @@ div#video-actions {
 div#channel-infos {
     display: flex;
     align-items: center;
-    gap: 10px;
+}
+
+div#logo-inscritos {
+    display: flex;
+    gap: 8px;
 }
 
 div#channel-infos .canal {
