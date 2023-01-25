@@ -58,7 +58,7 @@ header div#center {
     height: 40px;
 }
 
-header div#center #caixa-pesquisa {
+header div#center #search-box {
     display: flex;
     width: 640px;
     height: 40px;
@@ -81,20 +81,20 @@ div#center p {
     color: #888A8C;
 }
 
-div#center button#botao-teclado {
+div#center button#btn-keyboard {
     border: none;
     background-color: transparent;
     justify-content: right;
     padding: 0px 8px;
 }
 
-div#center button#botao-microfone {
+div#center button#btn-microphone {
     margin-left: 20px;
     border: none;
     background-color: transparent;
 }
 
-header div#center #icone-pesquisa{
+header div#center #search-icon{
     display: flex;
     position: relative;
     justify-content: center;
@@ -109,7 +109,7 @@ header div#center #icone-pesquisa{
     border-radius: 0px 25px 25px 0px;
 } 
 
-header div#center #icone-pesquisa img {
+header div#center #search-icon img {
     width: 26px;
 }
 
@@ -177,12 +177,12 @@ div#channel-infos {
     align-items: center;
 }
 
-div#logo-inscritos {
+div#logo-subscribers {
     display: flex;
     gap: 8px;
 }
 
-div#channel-infos .canal {
+div#channel-infos .channel {
 
     font-size: 14px;
     line-height: 16px;
@@ -191,7 +191,7 @@ div#channel-infos .canal {
     color: #515151;
 }
 
-.canal h2 {
+.channel h2 {
     font-size: 1rem;
     font-weight: bold;
     color: #000000;
@@ -209,39 +209,39 @@ div#channel-infos button {
     
 }
 
-div#botoes-interacao {
+div#btn-interaction {
     display: flex; 
     align-content: flex-end;
     gap: 10px;
 }
 
-div#botoes-interacao img {
+div#btn-interaction img {
     height: 100%;
     background-color: #f2f2f2;
     padding: 10px 15px;
     border-radius: 25px;
 }
 
-div#botoes-interacao p {
+div#btn-interaction p {
     font-weight: 800;
     background-color: #f2f2f2;
     padding: 10px 15px;
     border-radius: 25px;
 }
 
-div#infos-descricao {
+div#infos-description {
     background-color: #f2f2f2;
     border-radius: 15px;
     margin-top: 15px;
     padding: 10px;
 }
 
-div#infos-descricao h3 {
+div#infos-description h3 {
     font-size: .9rem;
     line-height: 1.3rem;
 }
 
-div#infos-descricao p {
+div#infos-description p {
     width: 50%;
     font-size: .85rem;
     line-height: 1.3rem;
@@ -267,13 +267,13 @@ section#sidebar .video-item {
     gap: 10px;
 }
 
-#sidebar #topo-sidebar {
+#sidebar #sidebar-top {
     display: flex;
     gap: 10px;
     margin: 8px 0px;
 }
 
-#sidebar #topo-sidebar button {
+#sidebar #sidebar-top button {
     background-color: #f2f2f2;
     padding: 7px 12px;
     border: none;
@@ -281,7 +281,7 @@ section#sidebar .video-item {
     font-size: .9rem;
 }
 
-#sidebar #topo-sidebar #button1 {
+#sidebar #sidebar-top #btn-all {
     background-color: #000000;
     color: #FFFFFF;
 
@@ -293,7 +293,7 @@ section#sidebar .video-item img {
     border-radius: 10px;
 }
 
-section#sidebar .video-item .texto-thumb{
+section#sidebar .video-item .text-thumb{
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -301,11 +301,11 @@ section#sidebar .video-item .texto-thumb{
     gap: 4px;
 }
 
-.video-item .texto-thumb h2 {
+.video-item .text-thumb h2 {
     font-size: .9rem;
 }
 
-.video-item .texto-thumb p {
+.video-item .text-thumb p {
     font-size: 0.8rem;
     color: #828282;
 }
