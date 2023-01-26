@@ -34,7 +34,7 @@
         margin: 0;
     }
 
-    section#watching-video #video-actions {
+    #watching-video #video-actions {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -44,7 +44,6 @@
     #video-actions #channel-infos {
         justify-content: flex-start;
         padding: 8px;
-    
     }
 
     #logo-subscribers {
@@ -91,22 +90,22 @@
         display: none;
     }
 
-    section#sidebar {
+    aside#sidebar {
         width: 100%;
         height: 100%;
         padding: 10px;
     }
 
-    section#sidebar .video-item {
+    aside#sidebar .video-item {
         width: 100%;
     }
 
-    section#sidebar .video-item img {
+    aside#sidebar .video-item img {
         width: 30%;
         border-radius: 10px;
     }
 
-    section#sidebar .video-item .text-thumb {
+    aside#sidebar .video-item .text-thumb {
         width: 70%;
         gap: 4px;
     }

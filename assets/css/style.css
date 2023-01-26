@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid white;  /* creates padding around scroll thumb */
 
-  }
+}
 
 header {
     display: flex;
@@ -248,7 +248,7 @@ div#infos-description p {
     font-weight: 400;
 }
 
-section#sidebar {
+aside#sidebar {
     display: flex;
     flex-direction: column;
     width: 402px;
@@ -261,7 +261,7 @@ section#sidebar {
     flex-direction: row;
 }
 
-section#sidebar .video-item {
+#sidebar .video-item {
     display: flex;
     justify-content: flex-start;
     gap: 10px;
@@ -287,13 +287,13 @@ section#sidebar .video-item {
 
 }
 
-section#sidebar .video-item img {
+#sidebar .video-item img {
     width: 165px;
     height: 95px;
     border-radius: 10px;
 }
 
-section#sidebar .video-item .text-thumb{
+#sidebar .video-item .text-thumb{
     display: flex;
     width: 50%;
     flex-direction: column;
